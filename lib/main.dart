@@ -7,12 +7,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Giriş Ekranı',
+      title: 'Login Page',
       theme: ThemeData(
           primarySwatch: Colors.brown,
           accentColor: Colors.brown[600]),
       home: Scaffold(
-          appBar: AppBar(title: Text("Giriş Ekranı",
+          appBar: AppBar(title: Text("Login Page",
             style: TextStyle(fontSize: 20.0, color: Colors.white),
           ),),
           body: LoginHome()),
@@ -34,7 +34,7 @@ Widget _LoginHome (BuildContext context)
     obscureText: false,
     decoration: InputDecoration(
         contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-        hintText: "Kullanıcı adı",
+        hintText: "User Name",
         border:
         OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))
     ),
@@ -44,7 +44,7 @@ Widget _LoginHome (BuildContext context)
     obscureText: true,
     decoration: InputDecoration(
         contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-        hintText: "Parola",
+        hintText: "Password",
         border:
         OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))
     ),
@@ -65,7 +65,7 @@ Widget _LoginHome (BuildContext context)
 
       },
 
-      child: Text("Giriş yap",
+      child: Text("Login",
         textAlign: TextAlign.center,
         style: TextStyle(color: Colors.white, fontStyle: FontStyle.normal),),
     ),
@@ -86,7 +86,7 @@ Widget _LoginHome (BuildContext context)
 
       },
 
-      child: Text("Kayıt ol",
+      child: Text("Register",
         textAlign: TextAlign.center,
         style: TextStyle(color: Colors.white, fontStyle: FontStyle.normal),),
     ),
