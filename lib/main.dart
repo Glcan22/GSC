@@ -34,7 +34,7 @@ Widget _LoginHome (BuildContext context)
     obscureText: false,
     decoration: InputDecoration(
         contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-        hintText: "User Name",
+        hintText: "User name",
         border:
         OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))
     ),
