@@ -44,7 +44,7 @@ Widget _LoginHome (BuildContext context)
     obscureText: true,
     decoration: InputDecoration(
         contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-        hintText: "Password",
+        hintText: "Password*",
         border:
         OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))
     ),
