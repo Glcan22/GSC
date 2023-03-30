@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-
-
 
 class ClimateAction extends StatelessWidget {
-  const ClimateAction({super.key});
-
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -45,8 +40,6 @@ class ClimateAction extends StatelessWidget {
                 ),
               ),
 
-
-
               const SizedBox(height: 10),
 
               // get started button
@@ -54,7 +47,6 @@ class ClimateAction extends StatelessWidget {
                 alignment: Alignment.bottomRight,
                 padding: EdgeInsets.only(right: 30, top: 100),
                 child: GestureDetector(
-
                   child: Container(
                     alignment: Alignment.center,
                     width: 120,
@@ -64,7 +56,6 @@ class ClimateAction extends StatelessWidget {
                       borderRadius: BorderRadius.circular(8),
                       color: const Color.fromARGB(255, 248, 245, 245),
                     ),
-
                   ),
                 ),
               ),
