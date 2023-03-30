@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Login Page',
       theme: ThemeData(
-          primarySwatch: Colors.brown,
-          accentColor: Colors.brown[600]),
+          primarySwatch: Colors.teal,
+          accentColor: Colors.teal[600]),
       home: Scaffold(
           appBar: AppBar(title: Text("Login Page",
             style: TextStyle(fontSize: 20.0, color: Colors.white),
@@ -54,7 +54,7 @@ Widget _LoginHome (BuildContext context)
   final loginButton = Material(
     elevation: 5.0,
     borderRadius: BorderRadius.circular(30.0),
-    color: Colors.brown[300],
+    color: Colors.tealAccent[400],
     child: MaterialButton(
       minWidth: MediaQuery
           .of(context)
@@ -75,7 +75,7 @@ Widget _LoginHome (BuildContext context)
   final registerButton = Material(
     elevation: 5.0,
     borderRadius: BorderRadius.circular(30.0),
-    color: Colors.brown[300],
+    color: Colors.tealAccent[400],
     child: MaterialButton(
       minWidth: MediaQuery
           .of(context)
@@ -119,25 +119,4 @@ Widget _LoginHome (BuildContext context)
       ),
     ),
   );
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
