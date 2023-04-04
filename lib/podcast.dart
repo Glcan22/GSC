@@ -113,12 +113,12 @@ class _MyHomePageState extends State<MyHomePage> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home, color:Colors.white),
-            label: 'Home',
+            label: ' Home ',
             backgroundColor: Colors.teal,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.slow_motion_video_outlined, color:Colors.white),
-            label: 'Podcasts',
+            label: ' Podcasts ',
             backgroundColor: Colors.teal,
           ),
           BottomNavigationBarItem(
