@@ -187,15 +187,7 @@ class ProductContainer extends StatelessWidget {
               children: [
                 Text(title),
                 SizedBox(height: 16),
-                // Text("\$" + product["price"].toString()),
                 SizedBox(height: 16),
-                /*Row(
-                  children: [
-                    Icon(Icons.favorite_outlined),
-                    SizedBox(width: 16),
-                    Icon(Icons.shopping_cart),
-                  ],
-                ),*/
               ],
             ),
           )
