@@ -127,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
             backgroundColor: Colors.teal,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.menu, color:Colors.white),
+            icon: Icon(Icons.menu_rounded, color:Colors.white),
             label: 'Categories',
             backgroundColor: Colors.teal,
           ),
